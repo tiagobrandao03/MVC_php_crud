@@ -1,0 +1,23 @@
+{
+    "name": "fsncursoonline/cursomvc",
+    "description": "Curso MVC PHP",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "core\\": "core/"
+        },
+        "files": [
+            "config/config.php"
+        ]
+
+    },
+    "authors": [{
+        "name": "Tiago Brandão",
+        "email": "tiagobrandao0003@gmail.com"
+    }],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2"
+    }
+
+}
